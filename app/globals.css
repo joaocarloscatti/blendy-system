@@ -1,5 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-body{background:radial-gradient(circle at top,#32103d 0%,#111 55%);color:white}
-input,select,textarea{color:white}
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #3b0b3f, #111111 55%);
+  color: white;
+  font-family: Arial, sans-serif;
+}
