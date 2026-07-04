@@ -1,0 +1,3 @@
+import AppShell from '@/components/AppShell'
+const produtos=[['🍓','Blendy de Morango','R$ 15,00'],['🥭','Blendy de Maracujá','R$ 15,00'],['🥛','Blendy Ninho com Nutella','R$ 20,00'],['🍓','Blendy Napolitano','R$ 20,00']]
+export default function ProdutosPage(){return <AppShell><h1 className="text-4xl font-black">Produtos</h1><p className="text-white/60 mt-2">Sabores iniciais da Blendy.</p><div className="grid md:grid-cols-2 gap-5 mt-8">{produtos.map(([emoji,nome,preco])=><div key={nome} className="rounded-3xl bg-white/10 border border-white/10 p-6"><div className="text-4xl">{emoji}</div><h2 className="text-2xl font-black mt-3">{nome}</h2><p className="text-blendyPink font-bold mt-2">{preco}</p></div>)}</div></AppShell>}

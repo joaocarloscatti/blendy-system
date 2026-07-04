@@ -1,0 +1,3 @@
+import Link from 'next/link'
+const items=[['🏠','Dashboard','/dashboard'],['🛒','Pedidos','/pedidos'],['👥','Clientes','/clientes'],['🥤','Produtos','/produtos']]
+export default function Sidebar(){return <aside className="w-full md:w-72 bg-black/40 border-r border-white/10 p-5"><div className="flex items-center gap-3 mb-8"><div className="h-12 w-12 rounded-2xl bg-gradient-to-br from-blendyPink to-blendyGold grid place-items-center text-2xl font-black">B</div><div><strong>Blendy</strong><p className="text-sm text-blendyPink">Control Center</p></div></div><nav className="grid gap-2">{items.map(([icon,label,href])=><Link key={href} href={href} className="rounded-2xl bg-white/5 hover:bg-blendyPink p-4 font-bold">{icon} {label}</Link>)}</nav></aside>}

@@ -1,0 +1,1 @@
+export default function Card({title,value,subtitle}:{title:string,value:string,subtitle?:string}){return <div className="rounded-3xl bg-white/10 border border-white/10 p-6 shadow-xl"><p className="text-white/60">{title}</p><h2 className="text-3xl font-black mt-2">{value}</h2>{subtitle&&<p className="text-sm text-blendyPink mt-2">{subtitle}</p>}</div>}
