@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Users/JOTTA/Documents/GitHub/blendy-os/app/layout.tsx"],"sourcesContent":["import './globals.css'\nexport const metadata={title:'Blendy OS',description:'Sistema de gestão da Blendy'}\nexport default function RootLayout({children}:{children:React.ReactNode}){return <html lang=\"pt-BR\"><body>{children}</body></html>}\n"],"names":["metadata","title","description","RootLayout","children","lang"],"mappings":";;;;;;;;;AACO,MAAMA,WAAS;IAACC,OAAM;IAAYC,aAAY;AAA6B;AACnE,SAASC,WAAW,EAACC,QAAQ,EAA4B;IAAE,qBAAO,8OAAC;QAAKC,MAAK;kBAAQ,cAAA,8OAAC;sBAAMD;;;;;;;;;;;AAAuB"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["file:///D:/Users/JOTTA/Documents/GitHub/blendy-os/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}

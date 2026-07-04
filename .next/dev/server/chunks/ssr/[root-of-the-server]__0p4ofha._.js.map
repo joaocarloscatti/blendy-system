@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Users/JOTTA/Documents/GitHub/blendy-os/app/page.tsx"],"sourcesContent":["import Link from 'next/link'\nexport default function Home(){return <main className=\"min-h-screen flex items-center justify-center p-6\"><div className=\"max-w-md w-full rounded-3xl bg-white/10 border border-white/10 p-8 text-center shadow-2xl\"><div className=\"mx-auto mb-4 h-20 w-20 rounded-3xl bg-gradient-to-br from-blendyPink to-blendyGold grid place-items-center text-4xl font-black\">B</div><h1 className=\"text-4xl font-black\">Blendy OS</h1><p className=\"text-white/70 mt-2\">Sistema inteligente de gestão</p><Link href=\"/login\" className=\"mt-8 block rounded-2xl bg-blendyPink py-4 font-bold\">Entrar no sistema</Link></div></main>}\n"],"names":["Home","className","href"],"mappings":";;;;;AAAA;;;AACe,SAASA;IAAO,qBAAO,8OAAC;QAAKC,WAAU;kBAAoD,cAAA,8OAAC;YAAIA,WAAU;;8BAA4F,8OAAC;oBAAIA,WAAU;8BAAiI;;;;;;8BAAO,8OAAC;oBAAGA,WAAU;8BAAsB;;;;;;8BAAc,8OAAC;oBAAEA,WAAU;8BAAqB;;;;;;8BAAiC,8OAAC,0LAAI;oBAACC,MAAK;oBAASD,WAAU;8BAAsD;;;;;;;;;;;;;;;;;AAAqC"}}]
+}
